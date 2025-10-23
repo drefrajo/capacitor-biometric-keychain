@@ -4,10 +4,11 @@ Uses Keychain and Keystore on ios and android respectively to give a secure loca
 
 This is a fork of [@flowmoco/capacitor-biometric-keychain](https://github.com/flowmoco/capacitor-biometric-keychain), this way I can maintain it more easily.
 
-Capacitor v6
+Capacitor v7
 Android minSdkVersion 23
-iOS min version 13.0
+iOS min version 14.0
 
+For Capacitor v6, use version 3.0.0 of this plugin.
 For Capacitor v5, use version 2.0.4 of this plugin.
 
 ## Install
