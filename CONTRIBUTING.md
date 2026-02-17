@@ -13,6 +13,19 @@ This guide provides instructions for contributing to this Capacitor plugin.
     npm install
     ```
 
+1. Use Java 21 for Android builds.
+
+    ```shell
+    export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+    export PATH="$JAVA_HOME/bin:$PATH"
+    ```
+
+1. Ensure Android SDK is available for Gradle.
+
+    ```shell
+    export ANDROID_HOME="$HOME/Library/Android/sdk"
+    ```
+
 1. Install SwiftLint if you're on macOS.
 
     ```shell
